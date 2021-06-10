@@ -1,0 +1,47 @@
+body {
+    background-image: url(img/back.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    width: 100;
+}
+
+h1 {
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 30px;
+    text-shadow: 1px 2px rgb(46, 46, 46);
+    background-color: rgb(48, 46, 46);
+}
+
+.mes_box {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    width: 70%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.mes_box img {
+    width: 30%;
+    height: 30%;
+    margin: 5px;
+}
+
+.mes_box p {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.mes {
+    text-align: center;
+    margin: 20px;
+    color: #ACB6E5;
+
+}
